@@ -144,7 +144,7 @@ When using Kometa builders, the majority of builders will require `collection_or
 ### Secondary Sorting
 You can also leverage "Secondary Sorting" This goes beyond the single sort settings you can apply to a collection in Plex.
 
-Example
+???+ example "Example 6 - Secondary Sorting"
 
     ```yaml
     libraries:
@@ -172,7 +172,7 @@ A "Smart" collection is one which is a living/breathing collection, as you add n
 
 Dumb collections can utilize the `sort_by` attribute to define the sorting.
 
-???+ example "Example 6 - Dumb Collection Sorting"
+???+ example "Example 7 - Dumb Collection Sorting"
 
     ```yaml
     collections:
@@ -219,7 +219,7 @@ The Sort Orders available for "Dumb" collections are outlined on the **[Dumb Ple
 
 Smart collections can only utilize `sort_by` if it is part of a Smart Filter.
 
-???+ example "Example 7 - Smart Filter Sorting"
+???+ example "Example 8 - Smart Filter Sorting"
 
     ```yaml
     collections:
@@ -233,7 +233,7 @@ Smart collections can only utilize `sort_by` if it is part of a Smart Filter.
 
 if you have a Smart Label collection, you can pass the `sort_by` value you want as part of the `smart_label` attribute.
 
-???+ example "Example 8 - Smart Label Sorting"
+???+ example "Example 9 - Smart Label Sorting"
 
     ```yaml
     collections:
